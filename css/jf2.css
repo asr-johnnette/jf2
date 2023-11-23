@@ -1728,6 +1728,7 @@ table {
   .left4 {
     width: 97%;
     padding-left: 18px;
+    background: black;
   }
 
   .right {
@@ -1753,21 +1754,21 @@ table {
 
 @media screen and (max-width: 540px) {
   .left1 {
-    top: 118px;
+    top: 100px;
   }
 
   .head-roll {
     left: 18px;
-    width: 324px;
+    width: 60%;
     font-size: 30px;
-    top: 42vh;
+    top: 41vh;
   }
 
 
   .johnnette-text1 {
     width: 100%;
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 22px;
   }
 
   .trow {
@@ -1842,7 +1843,9 @@ table {
 
   .head-roll {
     left: 8px;
-    top: 40vh;
+    top: 41vh;
+    width: 68%;
+    font-size: 27px;
   }
   .trow{
     height: 44px;
@@ -1878,9 +1881,9 @@ table {
   }
 
   .head-roll {
-    width: 268px;
+    width: 63%;
     top: 42vh;
-    font-size: 25px;
+    font-size: 24px;
     left: 9px;
   }
 
@@ -1973,7 +1976,8 @@ table {
 /********************************** 393px **********************************/
 @media screen and (max-width: 393px) {
   .head-roll {
-    top: 42vh;
+    top: 35vh;
+    width: 68%;
   }
 
   .left1 {
@@ -1981,7 +1985,7 @@ table {
   }
 
   .trow {
-    height: 40px;
+    height: 45px;
   }
   .property, .value{
     font-size: 16px;
@@ -1989,7 +1993,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 121px !important;
+    margin-top: 65px !important;
   }
   .applications {
     font-size: 21px;
@@ -2004,7 +2008,7 @@ table {
   }
 
   .head-roll {
-    width: 242px;
+    width: 66%;
     top: 48vh;
     font-size: 23px;
   }
@@ -2075,7 +2079,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 170px !important;
+    margin-top: 163px !important;
   }
 
   .table_1 .column1 .th h3,
@@ -2085,7 +2089,7 @@ table {
   }
 
   .trow {
-    height: 32px;
+    height: 38px;
   }
 
   .h_slide4 .column1,
