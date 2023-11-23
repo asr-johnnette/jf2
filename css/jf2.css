@@ -1266,8 +1266,7 @@ table {
 }
 
 .head-roll {
-  border-bottom: 2px solid red;
-  width: 423px;
+  /* width: 423px; */
   margin: 0;
   position: fixed;
   top: 32vh;
@@ -1357,7 +1356,7 @@ table {
 
 @media only screen and (min-width: 1980px){
   .head-roll{
-    width: 750px;
+    /* width: 750px; */
     font-size: 70px;
     top: 29vh;
   }
@@ -1430,6 +1429,9 @@ table {
   .h_slide4 .table_holder {
     margin-top: 75px !important;
   }
+  .property, .value{
+    font-size: 25px;
+  }
 }
 
 /****************** for 1280px start  **************************/
@@ -1451,9 +1453,9 @@ table {
   }
 
   .head-roll {
+    /* width: 420px; */
     left: 36px;
     top: 33vh;
-    width: 420px;
   }
 
   .left1 {
@@ -1500,7 +1502,7 @@ table {
   }
 
   .head-roll {
-    width: 385px;
+    /* width: 385px; */
     top: 28vh;
     font-size: 36px;
     left: 28px;
@@ -1591,8 +1593,8 @@ table {
   }
 
   .head-roll {
+    /* width: 620px; */
     top: 41vh;
-    width: 620px;
     font-size: 58px;
   }
 
@@ -1666,7 +1668,7 @@ table {
 /* ***************** 820px Start iPad Air **********************************/
 @media only screen and (max-width: 820px) {
   .head-roll {
-    width: 500px;
+    /* width: 500px; */
     font-size: 47px;
     top: 41vh;
   }
@@ -1710,8 +1712,8 @@ table {
 /**************************** for 768px start iPad Mini ********************************/
 @media only screen and (max-width: 768px) {
   .head-roll {
+    /* width: 66%; */
     left: 18px;
-    width: 66%;
     font-size: 47px;
     top: 41vh;
   }
@@ -1728,18 +1730,17 @@ table {
   .left4 {
     width: 97%;
     padding-left: 18px;
-/*     background-color: black; */
   }
 
   .right {
     width: 1%;
   }
-
+  
   .johnnette-text1 {
     width: 100%;
     font-size: 25px;
   }
-
+  
   .table_1 .table_holder,
   .table_2 .table_holder {
     margin-top: 122px !important;
@@ -1759,8 +1760,8 @@ table {
   }
 
   .head-roll {
+    /* width: 61%; */
     left: 18px;
-    width: 61%;
     font-size: 30px;
     top: 41vh;
   }
@@ -1843,7 +1844,7 @@ table {
   }
 
   .head-roll {
-    width: 69%;
+    /* width: 69%; */
     left: 8px;
     top: 41vh;
     font-size: 27px;
@@ -1882,7 +1883,7 @@ table {
   }
 
   .head-roll {
-    width: 63%;
+    /* width: 64%; */
     top: 42vh;
     font-size: 24px;
     left: 9px;
@@ -1974,11 +1975,11 @@ table {
   }
 }
 
-/********************************** 393px **********************************/
+/********************************** 393px Iphone 12Pro **********************************/
 @media screen and (max-width: 393px) {
   .head-roll {
+    /* width: 68%; */
     top: 35vh;
-    width: 68%;
   }
 
   .left1 {
@@ -2009,7 +2010,7 @@ table {
   }
 
   .head-roll {
-    width: 67%;
+    /* width: 67%; */
     top: 48vh;
     font-size: 23px;
   }
@@ -2066,7 +2067,7 @@ table {
 /********************************** Samsung Galaxy S8+ 360px **********************************/
 @media screen and (max-width: 360px) {
   .head-roll {
-    width: 70%;
+    /* width: 70%; */
     top: 50vh;
   }
 
@@ -2121,7 +2122,7 @@ table {
   }
 
   .head-roll {
-    width: 72%;
+    /* width: 72%; */
     font-size: 19px;
     top: 43vh;
   }
@@ -2161,7 +2162,7 @@ table {
   }
 
   .download_button button {
-    padding: 5px 15px;
+    padding: 5px 15px !important;
   }
 
 }
