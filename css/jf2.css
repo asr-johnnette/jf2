@@ -1711,7 +1711,7 @@ table {
 @media only screen and (max-width: 768px) {
   .head-roll {
     left: 18px;
-    width: 500px;
+    width: 66%;
     font-size: 47px;
     top: 47vh;
   }
