@@ -1713,14 +1713,14 @@ table {
     left: 18px;
     width: 66%;
     font-size: 47px;
-    top: 47vh;
+    top: 41vh;
   }
 
 
   .left1 {
     width: 98%;
     padding-left: 18px;
-    top: 165px;
+    top: 138px;
   }
 
   .left2,
@@ -1728,7 +1728,7 @@ table {
   .left4 {
     width: 97%;
     padding-left: 18px;
-    background-color: black;
+/*     background-color: black; */
   }
 
   .right {
@@ -1742,7 +1742,8 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 168px !important;
+    margin-top: 122px !important;
+    background-color: black;
   }
 
   .trow {
@@ -1759,7 +1760,7 @@ table {
 
   .head-roll {
     left: 18px;
-    width: 60%;
+    width: 61%;
     font-size: 30px;
     top: 41vh;
   }
@@ -1842,9 +1843,9 @@ table {
   }
 
   .head-roll {
+    width: 69%;
     left: 8px;
     top: 41vh;
-    width: 68%;
     font-size: 27px;
   }
   .trow{
@@ -2008,7 +2009,7 @@ table {
   }
 
   .head-roll {
-    width: 66%;
+    width: 67%;
     top: 48vh;
     font-size: 23px;
   }
@@ -2065,6 +2066,7 @@ table {
 /********************************** Samsung Galaxy S8+ 360px **********************************/
 @media screen and (max-width: 360px) {
   .head-roll {
+    width: 70%;
     top: 50vh;
   }
 
@@ -2119,9 +2121,9 @@ table {
   }
 
   .head-roll {
-    width: 204px;
+    width: 72%;
     font-size: 19px;
-    top: 47vh;
+    top: 43vh;
   }
 
   .right {
@@ -2129,7 +2131,7 @@ table {
   }
 
   .left1 {
-    top: 104px;
+    top: 87px;
     width: 85%;
   }
 
@@ -2145,17 +2147,17 @@ table {
   }
 
   .trow {
-    height: 31px;
+    height: 34px;
   }
 
   .property,
   .value {
-    font-size: 12.5px;
+    font-size: 11.5px;
   }
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 119px !important;
+    margin-top: 100px !important;
   }
 
   .download_button button {
