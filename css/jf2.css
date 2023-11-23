@@ -1309,7 +1309,7 @@ table {
 /******************************** bgimg-2 css starts **************************/
 
 .bgimg-2 {
-  background-image: url("img/jf2/wireframe2.png");
+  background-image: url("../img/jf2/wireframe2.png");
   display: flex;
 }
 
@@ -1337,13 +1337,13 @@ table {
 
 /********************************* bgimg-3 css  **************************/
 .bgimg-3 {
-  background-image: url("img/jf2/wireframe3.png");
+  background-image: url("../img/jf2/wireframe3.png");
   display: flex;
 }
 
 /********************************* bgimg-4 css ends **************************/
 .bgimg-4 {
-  background-image: url("img/jf2/render-final.png");
+  background-image: url("../img/jf2/render-final.png");
   display: flex;
 }
 
@@ -1575,19 +1575,19 @@ table {
   }
 
   .bgimg-1 {
-    background-image: url("/img/jf2/mobile_1.png");
+    background-image: url("../img/jf2/mobile_1.png");
   }
 
   .bgimg-2 {
-    background-image: url("/img/jf2/mobile_2.png");
+    background-image: url("../img/jf2/mobile_2.png");
   }
 
   .bgimg-3 {
-    background-image: url("/img/jf2/mobile_3.png");
+    background-image: url("../img/jf2/mobile_3.png");
   }
 
   .bgimg-4 {
-    background-image: url("/img/jf2/mobile_4.png");
+    background-image: url("../img/jf2/mobile_4.png");
   }
 
   .head-roll {
