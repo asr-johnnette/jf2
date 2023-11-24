@@ -1269,7 +1269,7 @@ table {
   margin: 0;
   position: fixed;
   top: 32vh;
-  left: 53px;
+  left: 42px;
   font-family: "Oswald", sans-serif;
   z-index: 50;
   color: white;
@@ -1397,6 +1397,7 @@ table {
 @media only screen and (max-width: 1980px) {
   .left1 {
     top: 10px;
+    padding-left: 48px;
   }
 
   .left2,
@@ -1411,6 +1412,7 @@ table {
 
   .head-roll {
     top: 32vh;
+    left: 38px;
   }
 
   .johnnette-text1 {
@@ -1439,6 +1441,7 @@ table {
 @media screen and (min-width: 1281px) and (max-width: 1500px) {
   .head-roll{
     top: 29vh;
+    left: 40px;
   }
   .table_1 .table_holder,
   .table_2 .table_holder,
@@ -1478,13 +1481,13 @@ table {
   }
 
   .head-roll {
-    left: 36px;
+    left: 24px;
     top: 31vh;
   }
 
   .left1 {
     width: 62%;
-    padding-left: 36px;
+    padding-left: 34px;
     top: 50px;
   }
 
@@ -1529,9 +1532,9 @@ table {
   }
 
   .head-roll {
-    top: 28vh;
+    top: 25vh;
     font-size: 36px;
-    left: 28px;
+    left: 16px;
   }
 
   .johnnette-text1 {
@@ -1550,7 +1553,7 @@ table {
   .left1 {
     width: 65%;
     padding-left: 28px;
-    top: 10px;
+    top: 15px;
   }
 
   .right {
@@ -1574,7 +1577,7 @@ table {
   .table_2 .table_holder,
   .h_slide3 .table_holder,
   .h_slide4 .table_holder {
-    margin-top: -9px !important;
+    margin-top: 20px !important;
   }
 
   .mediaquery-table {
@@ -1585,7 +1588,7 @@ table {
   }
 
   .trow {
-    height: 30px;
+    height: 35px;
   }
 }
 
@@ -1623,8 +1626,10 @@ table {
 
   .head-roll {
     /* width: 620px; */
-    top: 40vh;
+    top: 39vh;
     font-size: 58px;
+    border-bottom: 3px solid #ff0000;
+    left: 13px;
   }
 
   .left1 {
@@ -1700,6 +1705,7 @@ table {
     /* width: 500px; */
     font-size: 47px;
     top: 41vh;
+    left: 15px;
   }
   
   .table_1 .table_holder,
@@ -1750,7 +1756,7 @@ table {
 
   .left1 {
     width: 98%;
-    padding-left: 18px;
+    padding-left: 30px;
     top: 140px;
   }
 
@@ -1758,7 +1764,7 @@ table {
   .left3,
   .left4 {
     width: 97%;
-    padding-left: 18px;
+    padding-left: 30px;
   }
 
   .right {
@@ -1792,7 +1798,7 @@ table {
   }
 
   .head-roll {
-    left: 18px;
+    left: 21px;
     font-size: 30px;
     top: 41vh;
   }
@@ -1801,7 +1807,7 @@ table {
   .johnnette-text1 {
     width: 100%;
     font-size: 21px;
-    line-height: 22px;
+    line-height: 20px;
   }
 
   .trow {
@@ -1940,7 +1946,7 @@ table {
     padding-top: 0px;
     width: 94%;
     height: 113%;
-    padding-left: 11px;
+    padding-left: 20px;
   }
 
   .table_1 .th,
@@ -2045,7 +2051,7 @@ table {
   .head-roll {
     /* width: 67%; */
     top: 46vh;
-    left: 8px;
+    left: 5px;
     font-size: 23px;
   }
 
@@ -2058,12 +2064,13 @@ table {
 
   .left1 {
     top: 135px;
+    left: 2px;
   }
 
   .left2,
   .left3,
   .left4 {
-    padding-left: 13px;
+    padding-left: 19px;
   }
 
   .johnnette-text1 {
@@ -2114,6 +2121,10 @@ table {
     line-height: 15px;
   }
 
+  .left2, .left3, .left4{
+    padding-left: 18px;
+  }
+
   .table_1 .table_holder,
   .table_2 .table_holder {
     margin-top: 170px !important;
@@ -2156,7 +2167,6 @@ table {
   }
 
   .head-roll {
-    /* width: 72%; */
     font-size: 19px;
     top: 42vh;
   }
@@ -2179,6 +2189,7 @@ table {
   .left3,
   .left4 {
     width: 90%;
+    padding-left: 15px;
   }
 
   .trow {
