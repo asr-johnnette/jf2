@@ -1274,6 +1274,9 @@ table {
   z-index: 50;
   color: white;
   font-size: 40px;
+  display: inline-block;
+  border-bottom: 2px solid #ff0000; /* You can customize the border color and thickness */
+  padding: 5px;
 }
 
 .bgimg-1 {
@@ -1393,7 +1396,7 @@ table {
 /* ******************* 1980px start *******************/
 @media only screen and (max-width: 1980px) {
   .left1 {
-    top: 5px;
+    top: 10px;
   }
 
   .left2,
@@ -1426,7 +1429,7 @@ table {
   .table_2 .table_holder,
   .h_slide3 .table_holder,
   .h_slide4 .table_holder {
-    margin-top: 75px !important;
+    margin-top: 90px !important;
   }
   .property, .value{
     font-size: 25px;
@@ -1441,14 +1444,14 @@ table {
   .table_2 .table_holder,
   .h_slide3 .table_holder,
   .h_slide4 .table_holder {
-    margin-top: 30px !important;
+    margin-top: 48px !important;
   }
   .johnnette-text1{
     width: 99%;
   }
 
   .left1{
-    top: 25px;
+    top: 50px;
   }
 
   .property, .value{
@@ -1476,13 +1479,13 @@ table {
 
   .head-roll {
     left: 36px;
-    top: 33vh;
+    top: 31vh;
   }
 
   .left1 {
     width: 62%;
     padding-left: 36px;
-    top: 35px;
+    top: 50px;
   }
 
   .left2,
@@ -1502,7 +1505,7 @@ table {
   .table_2 .table_holder,
   .h_slide3 .table_holder,
   .h_slide4 .table_holder {
-    margin-top: 60px !important;
+    margin-top: 70px !important;
   }
 
   .trow {
@@ -1626,7 +1629,7 @@ table {
 
   .left1 {
     width: 95%;
-    top: 133px;
+    top: 143px;
   }
 
   .right {
@@ -1635,8 +1638,8 @@ table {
 
   .johnnette-text1 {
     width: 100%;
-    font-size: 34px;
-    line-height: 37px;
+    font-size: 29px;
+    line-height: 35px;
   }
 
   .left2,
@@ -1659,7 +1662,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 130px !important;
+    margin-top: 140px !important;
   }
 
   .property,
@@ -1701,12 +1704,12 @@ table {
   
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 115px !important;
+    margin-top: 130px !important;
   }
 
   .left1 {
     width: 95%;
-    top: 10vh;
+    top: 11vh;
   }
 
   .johnnette-text1 {
@@ -1748,7 +1751,7 @@ table {
   .left1 {
     width: 98%;
     padding-left: 18px;
-    top: 130px;
+    top: 140px;
   }
 
   .left2,
@@ -1769,8 +1772,11 @@ table {
   
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 100px !important;
+    margin-top: 115px !important;
     background-color: black;
+  }
+  .property, .value{
+    font-size: 25px;
   }
 
   .trow {
@@ -1782,11 +1788,10 @@ table {
 
 @media screen and (max-width: 540px) {
   .left1 {
-    top: 95px;
+    top: 113px;
   }
 
   .head-roll {
-    /* width: 61%; */
     left: 18px;
     font-size: 30px;
     top: 41vh;
@@ -1819,7 +1824,7 @@ table {
 
   .property,
   .value {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .table_1 .th,
@@ -1831,7 +1836,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 105px !important;
+    margin-top: 115px !important;
   }
 
   .table_1 .column1,
@@ -1871,7 +1876,7 @@ table {
 
   .head-roll {
     left: 8px;
-    top: 41vh;
+    top: 39vh;
     font-size: 27px;
   }
   
@@ -1887,7 +1892,7 @@ table {
   }
   
   .property, .value{
-    font-size: 18px;
+    font-size: 17px;
   }
   .trow{
     height: 44px;
@@ -1912,7 +1917,7 @@ table {
 
   .head-roll {
     /* width: 64%; */
-    top: 42vh;
+    top: 41vh;
     font-size: 24px;
     left: 7px;
   }
@@ -1920,7 +1925,7 @@ table {
   .left1 {
     width: 90%;
     padding-left: 10px;
-    top: 95px;
+    top: 100px;
   }
 
   .johnnette-text1 {
@@ -1999,7 +2004,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 114px !important;
+    margin-top: 125px !important;
   }
 }
 
@@ -2011,7 +2016,7 @@ table {
   }
 
   .left1 {
-    top: 42px;
+    top: 55px;
   }
 
   .trow {
@@ -2023,7 +2028,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 48px !important;
+    margin-top: 68px !important;
   }
   .applications {
     font-size: 21px;
@@ -2039,7 +2044,7 @@ table {
 
   .head-roll {
     /* width: 67%; */
-    top: 48vh;
+    top: 46vh;
     left: 8px;
     font-size: 23px;
   }
@@ -2052,7 +2057,7 @@ table {
   }
 
   .left1 {
-    top: 128px;
+    top: 135px;
   }
 
   .left2,
@@ -2080,11 +2085,11 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 130px !important;
+    margin-top: 140px !important;
   }
 
   .trow {
-    height:31px;
+    height: 35px;
   }
 
   .property,
@@ -2097,11 +2102,11 @@ table {
 @media screen and (max-width: 360px) {
   .head-roll {
     /* width: 70%; */
-    top: 50vh;
+    top: 49vh;
   }
 
   .left1 {
-    top: 150px;
+    top: 152px;
   }
 
   .johnnette-text1 {
@@ -2111,7 +2116,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 163px !important;
+    margin-top: 170px !important;
   }
 
   .table_1 .column1 .th h3,
@@ -2153,7 +2158,7 @@ table {
   .head-roll {
     /* width: 72%; */
     font-size: 19px;
-    top: 43vh;
+    top: 42vh;
   }
 
   .right {
@@ -2161,7 +2166,7 @@ table {
   }
 
   .left1 {
-    top: 87px;
+    top: 90px;
     width: 85%;
   }
 
@@ -2177,7 +2182,7 @@ table {
   }
 
   .trow {
-    height: 34px;
+    height: 30px;
   }
 
   .property,
@@ -2187,7 +2192,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 90px !important;
+    margin-top: 105px !important;
   }
 
   .download_button button {
