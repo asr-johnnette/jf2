@@ -1199,7 +1199,6 @@ table {
   
   .h_slide3 .column1 {
     padding-right: 0px;
-    /* padding-left: 100px; */
   }
 
   .table_1 .th,
@@ -1433,6 +1432,29 @@ table {
     font-size: 25px;
   }
 }
+/* ********************* */
+@media screen and (min-width: 1281px) and (max-width: 1500px) {
+  .head-roll{
+    top: 29vh;
+  }
+  .table_1 .table_holder,
+  .table_2 .table_holder,
+  .h_slide3 .table_holder,
+  .h_slide4 .table_holder {
+    margin-top: 30px !important;
+  }
+  .johnnette-text1{
+    width: 99%;
+  }
+
+  .left1{
+    top: 25px;
+  }
+
+  .property, .value{
+    font-size: 20px;
+  }
+}
 
 /****************** for 1280px start  **************************/
 @media only screen and (max-width: 1280px) {
@@ -1453,7 +1475,6 @@ table {
   }
 
   .head-roll {
-    /* width: 420px; */
     left: 36px;
     top: 33vh;
   }
@@ -1461,7 +1482,7 @@ table {
   .left1 {
     width: 62%;
     padding-left: 36px;
-    top: 50px;
+    top: 35px;
   }
 
   .left2,
@@ -1481,11 +1502,14 @@ table {
   .table_2 .table_holder,
   .h_slide3 .table_holder,
   .h_slide4 .table_holder {
-    margin-top: 78px !important;
+    margin-top: 60px !important;
   }
 
   .trow {
     height: 35px;
+  }
+  .property, .value{
+    font-size: 20px;
   }
 
   .johnnette-text1 {
@@ -1502,7 +1526,6 @@ table {
   }
 
   .head-roll {
-    /* width: 385px; */
     top: 28vh;
     font-size: 36px;
     left: 28px;
@@ -1524,7 +1547,7 @@ table {
   .left1 {
     width: 65%;
     padding-left: 28px;
-    top: 30px;
+    top: 10px;
   }
 
   .right {
@@ -1548,11 +1571,14 @@ table {
   .table_2 .table_holder,
   .h_slide3 .table_holder,
   .h_slide4 .table_holder {
-    margin-top: 30px !important;
+    margin-top: -9px !important;
   }
 
   .mediaquery-table {
     padding-left: 20px !important;
+  }
+  .property, .value{
+    font-size: 18px;
   }
 
   .trow {
@@ -1594,13 +1620,13 @@ table {
 
   .head-roll {
     /* width: 620px; */
-    top: 41vh;
+    top: 40vh;
     font-size: 58px;
   }
 
   .left1 {
     width: 95%;
-    top: 208px;
+    top: 133px;
   }
 
   .right {
@@ -1609,7 +1635,7 @@ table {
 
   .johnnette-text1 {
     width: 100%;
-    font-size: 38px;
+    font-size: 34px;
     line-height: 37px;
   }
 
@@ -1633,7 +1659,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 156px !important;
+    margin-top: 130px !important;
   }
 
   .property,
@@ -1675,7 +1701,7 @@ table {
   
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 125px !important;
+    margin-top: 115px !important;
   }
 
   .left1 {
@@ -1722,7 +1748,7 @@ table {
   .left1 {
     width: 98%;
     padding-left: 18px;
-    top: 138px;
+    top: 130px;
   }
 
   .left2,
@@ -1743,7 +1769,7 @@ table {
   
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 122px !important;
+    margin-top: 100px !important;
     background-color: black;
   }
 
@@ -1756,7 +1782,7 @@ table {
 
 @media screen and (max-width: 540px) {
   .left1 {
-    top: 100px;
+    top: 95px;
   }
 
   .head-roll {
@@ -1805,7 +1831,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 122px !important;
+    margin-top: 105px !important;
   }
 
   .table_1 .column1,
@@ -1839,34 +1865,36 @@ table {
   }
 
   .left1 {
-    top: 105px;
+    top: 80px;
     padding-left: 8px;
   }
 
   .head-roll {
-    /* width: 69%; */
     left: 8px;
     top: 41vh;
     font-size: 27px;
   }
-  .trow{
-    height: 44px;
-  }
-
+  
   .johnnette-text1 {
     line-height: 20px;
     font-size: 18px;
   }
-
+  
   .left2,
   .left3,
   .left4 {
     padding-left: 8px;
   }
-
+  
+  .property, .value{
+    font-size: 18px;
+  }
+  .trow{
+    height: 44px;
+  }
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 125px !important;
+    margin-top: 110px !important;
   }
 }
 
@@ -1886,7 +1914,7 @@ table {
     /* width: 64%; */
     top: 42vh;
     font-size: 24px;
-    left: 9px;
+    left: 7px;
   }
 
   .left1 {
@@ -1971,7 +1999,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 127px !important;
+    margin-top: 114px !important;
   }
 }
 
@@ -1995,7 +2023,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 65px !important;
+    margin-top: 48px !important;
   }
   .applications {
     font-size: 21px;
@@ -2012,6 +2040,7 @@ table {
   .head-roll {
     /* width: 67%; */
     top: 48vh;
+    left: 8px;
     font-size: 23px;
   }
 
@@ -2023,7 +2052,7 @@ table {
   }
 
   .left1 {
-    top: 135px;
+    top: 128px;
   }
 
   .left2,
@@ -2051,7 +2080,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 140px !important;
+    margin-top: 130px !important;
   }
 
   .trow {
@@ -2158,7 +2187,7 @@ table {
 
   .table_1 .table_holder,
   .table_2 .table_holder {
-    margin-top: 100px !important;
+    margin-top: 90px !important;
   }
 
   .download_button button {
